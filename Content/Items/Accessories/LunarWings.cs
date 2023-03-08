@@ -43,7 +43,7 @@ namespace RandomContentModIII.Content.Items.Accessories
 				.AddIngredient(ItemID.LunarBar, 100)
 				.AddIngredient(ItemID.SoulofFlight, 20)
 				.AddTile(TileID.MythrilAnvil)
-				.SortBefore(Main.recipe.First(recipe => recipe.createItem.wingSlot != -1)) // Places this recipe before any wing so every wing stays together in the crafting menu.
+				.SortBefore(Main.recipe.First(recipe => recipe.createItem.wingSlot != -1)) // places this recipe before any wing so every wing stays together in the crafting menu
 				.Register();
 		}
 	}
