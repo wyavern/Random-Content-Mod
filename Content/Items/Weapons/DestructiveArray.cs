@@ -49,7 +49,7 @@ namespace RandomContentModIII.Content.Items.Weapons
 				.AddTile(TileID.LunarCraftingStation)
 				.Register();
 		}
-		// This method lets you adjust position of the gun in the player's hands. Play with these values until it looks good with your graphics.
+		//position adjustment
 		public override Vector2? HoldoutOffset() {
 			return new Vector2(-2f, -2f);
 		}
