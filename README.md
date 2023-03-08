@@ -1,3 +1,9 @@
-Before using any of the code from this mod, please make sure to give credit and ask me on discord before doing that! (My discord is wyavern#5387, or you can join the discord server, which would be highly appreciated! (https://discord.gg/SFRwZnevZH))
+# 
+Before using any of the code from this mod, please make sure to read the following:
+1. I make this mod for myself, I do not get paid for it.
+2. All of this mod is made by one person, with next to no prior experience in programming.
+3. You can utilize the mod's code for your own reasons. However, before doing that, please, either DM me on discord (wyavern#5387, or on the mod's discord server (https://discord.gg/SFRwZnevZH)) or give credit for the part of the code you're using.
+# 
+# Credits
 All of the credits for sprites that I used and are not mine are in the Credits.txt file.
 If any files are not there - it's either that I forgot to add them, or they were drawn by me.
