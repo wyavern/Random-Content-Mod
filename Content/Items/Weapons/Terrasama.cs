@@ -6,11 +6,6 @@ using RandomContentModIII.Content.Items.Placeable;
 
 namespace RandomContentModIII.Content.Items.Weapons
 {
-	/// <summary>
-	/// This weapon and its corresponding projectile showcase the CloneDefaults() method, which allows for cloning of other items.
-	/// For this example, we shall copy the Meowmere and its projectiles with the CloneDefaults() method, while also changing them slightly.
-	/// For a more detailed description of each item field used here, check out <see cref="ExampleSword" />.
-	/// </summary>
 	public class Terrasama : ModItem
 	{
 		public override void SetStaticDefaults() 
@@ -23,7 +18,6 @@ namespace RandomContentModIII.Content.Items.Weapons
 		{
 			Item.CloneDefaults(ItemID.TerraBlade);
 			Item.UseSound = SoundID.Item1;
-			//Item.shoot = ModContent.ProjectileType<TerrasamaBlade>();
 			Item.shoot = ProjectileID.TerraBeam;
 			Item.damage = 100;
 			Item.shootSpeed *= 2f;
