@@ -1,0 +1,30 @@
+using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using ReLogic.Localization.IME;
+using Terraria.Localization;
+
+namespace RandomContentModIII.Content.Buffs
+{
+    public class DestroyedDefense : ModBuff
+    {
+        public override void SetStaticDefaults()
+        {
+            //DisplayName.AddTranslation(GameCulture.Russian, "Разрезанная защита");
+            // DisplayName.SetDefault("Shredded Defense");
+            // Description.SetDefault("Your defense has been nullified!");
+            Main.buffNoTimeDisplay[Type] = false;
+            Main.debuff[Type] = true;
+            Main.pvpBuff[Type] = true;
+			Main.buffNoSave[Type] = false;
+			BuffID.Sets.LongerExpertDebuff[Type] = true;
+        }
+         public override void Update(Player player, ref int buffIndex)
+        {
+            player.statDefense = 0;
+        }
+    }
+}

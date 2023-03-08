@@ -1,0 +1,54 @@
+using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+using RandomContentModIII.Content.Buffs;
+
+namespace RandomContentModIII.Content.Projectiles
+{
+    public class HeatedBeam : ModProjectile
+    {
+        public override void SetStaticDefaults() {
+			DisplayName.SetDefault("Overheated Beam"); // The name of the projectile(it can be appeared in chat)
+		}
+        public override void SetDefaults()
+        {
+            Projectile.width = 8;
+            Projectile.height = 8;
+            Projectile.timeLeft = 180;
+            Projectile.friendly = true;
+            Projectile.hostile = false;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.penetrate = 348433993;
+            Projectile.extraUpdates = 100; //You can change this value to 100 to get a full laser effect
+        }
+        public override void AI()
+        {
+            //Projectile appears at 4 ticks
+            if(Projectile.ai[0] > 13.3f)
+            {
+                for(int i = 0; i < 8; i++)
+                {
+                    int DustID = Dust.NewDust(Projectile.position, Projectile.width + 2, Projectile.height + 2, 6, Projectile.velocity.X * 0.2f, Projectile.velocity.Y * 0.2f, 100, default(Color), 1f);
+                    Main.dust[DustID].noGravity = true;
+                    Main.dust[DustID].scale *= 1.75f;
+                }
+            }
+            Projectile.ai[0] += 1f;
+        }
+
+       // public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+		//{
+		//	target.immune[Projectile.owner] = 2;
+        
+		//}
+
+        public virtual void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
+		{
+            target.AddBuff(ModContent.BuffType<DestroyedDefense>(), 60, false);
+		}
+    }
+}

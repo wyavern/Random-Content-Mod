@@ -1,0 +1,172 @@
+
+Mods: {
+	RandomContentModIII: {
+		Buffs: {
+			DestroyedDefense: {
+				DisplayName: Shredded Defense
+				Description: Your defense has been nullified!
+			}
+		}
+
+		Items: {
+			LunarWings: {
+				DisplayName: Lunar Wings
+				Tooltip: Want the Moon? Just put these on and fly to it!
+			}
+
+			HealingCrystal: {
+				DisplayName: Healing Crystal
+				Tooltip: Used once per frame.
+			}
+
+			ModRarity1Item: {
+				DisplayName: Mod Rarity1 Item
+				Tooltip: SOMETHING
+			}
+
+			ModRarity2Item: {
+				DisplayName: Mod Rarity2 Item
+			}
+
+			ModRarity3Item: {
+				DisplayName: Mod Rarity3 Item
+				Tooltip: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]"
+			}
+
+			StarhoodBar: {
+				DisplayName: Starhood Bar
+			}
+
+			RedtoBlue: {
+				DisplayName: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]"
+				Tooltip: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]"
+			}
+
+			AncientMurasama: {
+				DisplayName: Ancient Murasama
+				Tooltip: There will be blood!
+			}
+
+			AncientMurasama2: {
+				DisplayName: Ancient Murasama
+				Tooltip: There will be blood!
+			}
+
+			BeamThing: {
+				DisplayName: Overheated Amber Staff
+				Tooltip:
+					'''
+					Fires a powerful beam.
+					The beam can penetrate a huge amount of enemies at once.
+					It will reduce the defense of your foes, as well as setting them on fire.
+					'''
+			}
+
+			DarkClaymore: {
+				DisplayName: Dark Claymore
+				Tooltip: The ultimate reward.
+			}
+
+			DestructiveArray: {
+				DisplayName: Intergalactic Destruction Array
+				Tooltip:
+					'''
+					'Don't expect a painless death.'
+					Shoots a deadly galactic [c/FF00AA:Fireball] that ignores enemy's Immunity Frames.
+					'''
+			}
+
+			GenericSword: {
+				DisplayName: Generic Sword
+			}
+
+			IchthyicKnives: {
+				DisplayName: Ichthyic Knives
+				Tooltip: An upgraded verison of the Vampire Knives. Shoots 5 lifestealing knives.
+			}
+
+			LightItem: {
+				DisplayName: Light Item
+				Tooltip: "'Light it all up, mate!'"
+			}
+
+			SakuyaKnifeBarrage: {
+				DisplayName: Sakuya's Knife Barrage
+				Tooltip:
+					'''
+					A powerful set of knives that uses mana to create copies of themselves.
+					Will shoot knives in 1 directions in a 90 degree angle.
+					Heals the user for 5 health on hit per knife.
+					May cause lag
+					'What happens to the dead if they starve themselves to death?'
+					'''
+			}
+
+			SakuyaKnives: {
+				DisplayName: Sakuya's Knives
+				Tooltip:
+					'''
+					A powerful set of knives that uses mana to create copies of themselves.
+					Heals the user for 5 health on hit per knife.
+					'What happens to the dead if they starve themselves to death?'
+					'''
+			}
+
+			Terrasama: {
+				DisplayName: Terra Claymore
+				Tooltip: Terra Blade on top.
+			}
+
+			CompressedIce.DisplayName: Compressed Ice
+
+			HeatedAmberStaff: {
+				DisplayName: Overheated Amber Staff
+				Tooltip:
+					'''
+					Fires a powerful beam.
+					The beam can penetrate a huge amount of enemies at once.
+					'''
+			}
+
+			IceBeamStaff: {
+				DisplayName: Icy Shadowbeam Staff
+				Tooltip:
+					'''
+					Fires a very cold beam.
+					The beam can penetrate a huge amount of enemies at once as well as being able to pass through terrain.
+					'''
+			}
+		}
+
+		Projectiles: {
+			AncientMurasamaBlade: {
+				DisplayName: Ancient Murasama Blade
+			}
+
+			AncientMurasamaBlade2: {
+				DisplayName: Ancient Murasama Blade2
+			}
+
+			Beam.DisplayName: Beam
+
+			GalacticDeathRay: {
+				DisplayName: Intergalactic Death Ray
+			}
+
+			LightItemBlade: {
+				DisplayName: Light Item Blade
+			}
+
+			SakuyaKnife: {
+				DisplayName: Sakuya Knife
+			}
+
+			TerrasamaBlade: {
+				DisplayName: Terrasama Blade
+			}
+
+			HeatedBeam.DisplayName: Overheated Beam
+			IceLaser.DisplayName: Ice Laser
+		}
+	}
+}

@@ -1,0 +1,162 @@
+
+Mods: {
+	RandomContentModIII: {
+		Buffs: {
+			DestroyedDefense: {
+				/* DisplayName: Разрезанная Защита */
+				/* Description: Ваша защита аннулирована! */
+			}
+		}
+
+		Items: {
+			LunarWings: {
+				/* DisplayName: Лунные Крылья */
+				/* Tooltip: Хочешь Луну? Просто надень их и долети до неё! */
+			}
+
+			HealingCrystal: {
+				/* DisplayName: Лечащий Кристалл */
+				/* Tooltip: Используется 1 раз за кадр. */
+			}
+
+			ModRarity1Item: {
+				/* DisplayName: Предмет с Редкостью Мода 1 */
+				/* Tooltip: ЧТО-ТО*/
+			}
+
+			ModRarity2Item: {
+				/* DisplayName:Предмет с Редкостью Мода 1 */
+			}
+
+			ModRarity3Item: {
+				/* DisplayName: Предмет с Редкостью Мода 1 */
+				/* Tooltip: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]" */
+			}
+
+			StarhoodBar: {
+				/* DisplayName: Starhood Bar */
+			}
+
+			RedtoBlue: {
+				/* DisplayName: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]" */
+				/* Tooltip: "[c/FF0000:R][c/DF0020:e][c/BF0040:d] [c/9F0060:t][c/800080:o] [c/60009F:b][c/40009F:l][c/2000DF:u][c/0000FF:e]" */
+			}
+
+			AncientMurasama: {
+				/* DisplayName: Древняя Мурасама */
+				/* Tooltip: Там будет кровь! */
+			}
+
+			AncientMurasama2: {
+				/* DisplayName: Древняя Мурасама */
+				/* Tooltip: Там будет кровь! */
+			}
+
+			DarkClaymore: {
+				/* DisplayName: Тёмный Клеймор */
+				/* Tooltip: Лучшая награда. */
+			}
+
+			DestructiveArray: {
+				/* DisplayName: Межгалактический Array Разрушения*/
+				/* Tooltip:
+					'''
+					'Не ожидай смерти без боли.'
+					Стреляет смертельным межгалактическим [c/FF00AA:огненным шаром] который игнорирует большую часть кадров неуязвимости врагов.
+					''' */
+			}
+
+			GenericSword: {
+				/* DisplayName: Обычный Меч */
+			}
+
+			IchthyicKnives: {
+				/* DisplayName: Ichthyic Knives */
+				/* Tooltip: An upgraded verison of the Vampire Knives. Shoots 5 lifestealing knives. */
+			}
+
+			LightItem: {
+				/* DisplayName: Предмет Света */
+				/* Tooltip: "'Light it all up, mate!'" */
+			}
+
+			SakuyaKnifeBarrage: {
+				/* DisplayName: Sakuya's Knife Barrage */
+				/* Tooltip:
+					'''
+					A powerful set of knives that uses mana to create copies of themselves.
+					Will shoot knives in 1 directions in a 90 degree angle.
+					Heals the user for 5 health on hit per knife.
+					May cause lag
+					'What happens to the dead if they starve themselves to death?'
+					''' */
+			}
+
+			SakuyaKnives: {
+				/* DisplayName: Ножи Сакуи*/
+				/* Tooltip:
+					'''
+					A powerful set of knives that uses mana to create copies of themselves.
+					Heals the user for 5 health on hit per knife.
+					'What happens to the dead if they starve themselves to death?'
+					''' */
+			}
+
+			Terrasama: {
+				/* DisplayName: Терра Клеймор */
+				/* Tooltip: Терра Меч топ. */
+			}
+
+			/* CompressedIce.DisplayName: Компрессированный Лёд */
+
+			HeatedAmberStaff: {
+				/* DisplayName: Прегеретый Янтарный Посох */
+				/* Tooltip:
+					'''
+					Стреляет сильным лучом.
+					Луч может убить много врагов за раз.
+					''' */
+			}
+
+			IceBeamStaff: {
+				/* DisplayName: Icy Shadowbeam Staff */
+				/* Tooltip:
+					'''
+					Fires a very cold beam.
+					The beam can penetrate a huge amount of enemies at once as well as being able to pass through terrain.
+					''' */
+			}
+		}
+
+		Projectiles: {
+			AncientMurasamaBlade: {
+				/* DisplayName: Меч Древней Мурасамы */
+			}
+
+			AncientMurasamaBlade2: {
+				/* DisplayName: Меч Древней Мурасамы */
+			}
+
+			/* Beam.DisplayName: Beam */
+
+			GalacticDeathRay: {
+				/* DisplayName: Intergalactic Death Ray */
+			}
+
+			LightItemBlade: {
+				/* DisplayName: Light Item Blade */
+			}
+
+			SakuyaKnife: {
+				/* DisplayName: Нож Сакуи */
+			}
+
+			TerrasamaBlade: {
+				/* DisplayName: Меч Террасамы */
+			}
+
+			/* HeatedBeam.DisplayName: Перегретый Луч */
+			/* IceLaser.DisplayName: Ледяной Лазер */
+		}
+	}
+}

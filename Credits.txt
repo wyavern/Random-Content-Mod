@@ -1,0 +1,32 @@
+Assets/Sounds/Items
+IceLaser.ogg - Example Gun - Example Mod
+Content/Items/Weapons
+Terrasama.png - First Fractal Projectile - Terraria
+DestructiveArray.png - Apoctosis Array - Calamity Mod
+AncientMurasama1.png - Old Murasama - Calamity Mod
+AncientMurasama2.png - Old Murasama - Calamity Mod
+HeatedAmberStaff.png - Atom Splitter - Calamity Mod
+IceBeamStaff.png - Nadir - Calamity Mod
+Content/Projectiles
+AncientMurasamaBlade.png - Projectile 595 - Terraria
+AncientMurasamaBlade2.png - Projectile 595 - Terraria
+GalacticDeathRay.png - Projectile 872 - Terraria
+LightItemBlade.png - Projectile 595 - Terraria
+Content/Rarities
+ModRarity1.cs - ExampleModRarity - Example Mod
+ModRarity2.cs - ExampleHigherTierModRarity - Example Mod
+ModRarity3.cs - ExampleHigherTierModRarity - Example mod
+SakuyaKnives.cs (the recipe and damage part) - copied from The Stars Above mod code (thanks to PaperLuigi for letting me use it (discord.gg/starsabove))
+Content/Tiles
+StarhoodBarBlock.cs - ExampleBar - Example Mod
+StarhoodBarBlock.png - ExampleBar - Example Mod
+Content/Items/Accessories
+LunarWings.cs - ExampleWings - Example Mod
+LunarWings.png - ExampleWings - Example Mod
+LunarWings_Wings.png - ExampleWings_Wings - Example Mod
+Content/Items/Consumables
+HealingCrystal.png - Blood Thorn - Terraria
+Content/Items/Placeable
+StarhoodBar.cs - ExampleBar - Example Mod
+StarhoodBar.png - ExampleBar - Example Mod
+CompressedIceBlock.png - ExampleBlock - Example Mod
