@@ -108,6 +108,7 @@ namespace RandomContentModIII.Content.Items.Weapons
 				.AddIngredient(ItemID.ShadowbeamStaff)
 				.AddIngredient<Items.Placeable.CompressedIce>(25)
 				.AddIngredient<Items.Placeable.StarhoodBar>(50)
+				.AddIngredient<Items.Placeable.IcedBar>(75)
 				.AddIngredient(ItemID.SoulofFright, 10)
 				.AddIngredient(ItemID.SoulofMight, 10)
 				.AddIngredient(ItemID.SoulofSight, 10)
