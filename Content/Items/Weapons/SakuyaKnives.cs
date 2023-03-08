@@ -63,7 +63,8 @@ namespace RandomContentModIII.Content.Items.Weapons
 
 			position += Vector2.Normalize(velocity) * 45f;
 
-			for (int i = 0; i < numberProjectiles; i++) {
+			for (int i = 0; i < numberProjectiles; i++) 
+			{
 				Vector2 perturbedSpeed = velocity.RotatedBy(MathHelper.Lerp(-rotation, rotation, i / (numberProjectiles - 1))) * 1f; 
 				Projectile.NewProjectile(source, position, perturbedSpeed, type, damage, knockback, player.whoAmI);
 			}
@@ -71,12 +72,13 @@ namespace RandomContentModIII.Content.Items.Weapons
 			return false; 
 		}
 
-		public override void ModifyTooltips(List<TooltipLine> tooltips) {
-			// This code shows using Color.Lerp,  Main.GameUpdateCount, and the modulo operator (%) to do a neat effect cycling between 4 custom colors.
+		public override void ModifyTooltips(List<TooltipLine> tooltips) 
+		{
 			int numColors = itemNameCycleColors.Length;
-			
-			foreach (TooltipLine line2 in tooltips) {
-				if (line2.Mod == "Terraria" && line2.Name == "ItemName") {
+			foreach (TooltipLine line2 in tooltips)
+			{
+				if (line2.Mod == "Terraria" && line2.Name == "ItemName") 
+				{
 					float fade = (Main.GameUpdateCount % 60) / 60f;
 					int index = (int)((Main.GameUpdateCount / 60) % numColors);
 					int nextIndex = (index + 1) % numColors;
@@ -95,7 +97,7 @@ namespace RandomContentModIII.Content.Items.Weapons
                 .AddIngredient<IchthyicKnives>()
                 .AddIngredient(calamityMod.Find<ModItem>("CosmiliteBar").Type, 10)
                 .AddIngredient(ItemID.FragmentNebula, 20)
-				.AddIngredient(ItemID.LunarBar, 25)
+		.AddIngredient(ItemID.LunarBar, 25)
                 .AddTile(TileID.LunarCraftingStation)
                 .Register();
             }
@@ -104,7 +106,7 @@ namespace RandomContentModIII.Content.Items.Weapons
                 CreateRecipe(1)
                 .AddIngredient<IchthyicKnives>()
                 .AddIngredient(ItemID.FragmentNebula, 20)
-				.AddIngredient(ItemID.LunarBar, 25)
+		.AddIngredient(ItemID.LunarBar, 25)
                 .AddTile(TileID.LunarCraftingStation)
                 .Register();
             }
