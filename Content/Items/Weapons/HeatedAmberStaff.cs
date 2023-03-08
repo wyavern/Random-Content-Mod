@@ -14,11 +14,6 @@ using RandomContentModIII.Content.Buffs;
 
 namespace RandomContentModIII.Content.Items.Weapons
 {
-	/// <summary>
-	/// This weapon and its corresponding projectile showcase the CloneDefaults() method, which allows for cloning of other items.
-	/// For this example, we shall copy the Meowmere and its projectiles with the CloneDefaults() method, while also changing them slightly.
-	/// For a more detailed description of each item field used here, check out <see cref="ExampleSword" />.
-	/// </summary>
 	public class HeatedAmberStaff : ModItem
 	{
 		private static readonly Color[] itemNameCycleColors = 
@@ -76,8 +71,8 @@ namespace RandomContentModIII.Content.Items.Weapons
 			Item.channel = true;
 		}
 
-		public override void ModifyTooltips(List<TooltipLine> tooltips) {
-			// This code shows using Color.Lerp,  Main.GameUpdateCount, and the modulo operator (%) to do a neat effect cycling between 4 custom colors.
+		public override void ModifyTooltips(List<TooltipLine> tooltips) 
+		{
 			int numColors = itemNameCycleColors.Length;
 			
 			foreach (TooltipLine line2 in tooltips) {
@@ -92,7 +87,8 @@ namespace RandomContentModIII.Content.Items.Weapons
 		}
 
 
-		public override void AddRecipes() {
+		public override void AddRecipes() 
+		{
 			CreateRecipe()
 				.AddIngredient(ItemID.Amber, 100)
                 .AddIngredient(ItemID.HeatRay, 1)
