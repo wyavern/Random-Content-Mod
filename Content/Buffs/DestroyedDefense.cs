@@ -13,9 +13,8 @@ namespace RandomContentModIII.Content.Buffs
     {
         public override void SetStaticDefaults()
         {
-            //DisplayName.AddTranslation(GameCulture.Russian, "Разрезанная защита");
-            // DisplayName.SetDefault("Shredded Defense");
-            // Description.SetDefault("Your defense has been nullified!");
+            DisplayName.SetDefault("Shredded Defense");
+            Description.SetDefault("Your defense has been nullified!");
             Main.buffNoTimeDisplay[Type] = false;
             Main.debuff[Type] = true;
             Main.pvpBuff[Type] = true;
