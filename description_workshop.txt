@@ -1,0 +1,3 @@
+A mod that adds some random content to the game.
+For source code go to https://github.com/wyavern/Random-Content-Mod
+If you want to use any of that, please, message me on discord (wyavern#5387)!
