@@ -5,11 +5,6 @@ using RandomContentModIII.Content.Projectiles;
 
 namespace RandomContentModIII.Content.Items.Weapons
 {
-	/// <summary>
-	/// This weapon and its corresponding projectile showcase the CloneDefaults() method, which allows for cloning of other items.
-	/// For this example, we shall copy the Meowmere and its projectiles with the CloneDefaults() method, while also changing them slightly.
-	/// For a more detailed description of each item field used here, check out <see cref="ExampleSword" />.
-	/// </summary>
 	public class AncientMurasama : ModItem
 	{
 		public override void SetStaticDefaults() {
