@@ -20,6 +20,8 @@ SakuyaKnives.cs (the recipe and damage part) - copied from The Stars Above mod c
 Content/Tiles
 StarhoodBarBlock.cs - ExampleBar - Example Mod
 StarhoodBarBlock.png - ExampleBar - Example Mod
+IcedBarBlock.cs - ExampleBar - ExampleMod
+IcedBarBlock.png - ExampleBar - ExampleMod
 Content/Items/Accessories
 LunarWings.cs - ExampleWings - Example Mod
 LunarWings.png - ExampleWings - Example Mod
@@ -30,3 +32,5 @@ Content/Items/Placeable
 StarhoodBar.cs - ExampleBar - Example Mod
 StarhoodBar.png - ExampleBar - Example Mod
 CompressedIceBlock.png - ExampleBlock - Example Mod
+IcedBar.png - ExampleBar - ExampleMod
+IcedBar.cs - ExampleMod - ExampleMod
