@@ -37,8 +37,8 @@ namespace RandomContentModIII.Content.Items.Weapons
 			Item.shoot = ProjectileID.VortexBeaterRocket;
 			Item.shootSpeed = 25;
 			Item.crit = 10;
-			Item.scale = 0.17f;
-			SoulflowCost = 2; // Set our custom resource cost to 5
+			Item.scale = 1f;
+			SoulflowCost = 7; // Set our custom resource cost to 5
 		}
 
 		public override void ModifyTooltips(List<TooltipLine> tooltips) 
