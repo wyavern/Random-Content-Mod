@@ -36,7 +36,7 @@ namespace RandomContentModIII.Common.UI.ExampleResourceUI
 			barFrame.Width.Set(138, 0f);
 			barFrame.Height.Set(34, 0f);
 
-			text = new UIText("Hold a soulflow weapon!", 0.8f); // text to show stat
+			text = new UIText("Hold or equip a soulflow item!", 0.8f); // text to show stat
 			text.Width.Set(138, 0f);
 			text.Height.Set(34, 0f);
 			text.Top.Set(40, 0f);
@@ -79,8 +79,8 @@ namespace RandomContentModIII.Common.UI.ExampleResourceUI
 			int right = hitbox.Right;
 			int steps = (int)((right - left) * quotient);
 			for (int i = 0; i < steps; i += 1) {
-				// float percent = (float)i / steps; // Alternate Gradient Approach
-				float percent = (float)i / (right - left);
+				float percent = (float)i / steps; // Alternate Gradient Approach
+				//float percent = (float)i / (right - left);
 				spriteBatch.Draw(TextureAssets.MagicPixel.Value, new Rectangle(left + i, hitbox.Y, 1, hitbox.Height), Color.Lerp(gradientA, gradientB, percent));
 			}
 		}
