@@ -7,3 +7,8 @@ Before using any of the code from this mod, please make sure to read the followi
 # Credits
 All of the credits for sprites and code that I used and are not mine are in the Credits.txt file.
 If any files are not there - it's either that I forgot to add them, or they were drawn by me.
+# 
+# Questions
+(The mod isn't really popular, but this is just in case anyone has questions about it)
+Q - Why are most sprites not drawn by me?
+A - I am bad and slow and drawing. If I did draw everything by myself the updates would take far longer to release.
