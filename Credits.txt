@@ -1,6 +1,22 @@
 Assets/Sounds/Items
 IceLaser.ogg - Example Gun - Example Mod
+Content/Items/Other
+WingedRemote.png - Draedon Remote - Calamity Mod
+CorruptRawSoulflow.png - Soulflow - Furfsky Reborn Overlay
+BloodyRawSoulflow.png - Lesser Soulflow Engine - Furfsky Reborn Overlay
+Soulflow.png - Example Resourse Accessory - Example
+RawSoulflow.png - Plasmaflux Power Orb - Furfsky Reborn Overlay
+RefinedSoulflow.png - Soulflow Engine - Furfsky Reborn Overlay
 Content/Items/Weapons
+ToxicChlorophyteStaff.png - Chlorophyte Partisan - Terraria
+IchoryStriker.png - Ichor Spear - Calamity Mod
+AcidStaff.png - Asteroid Staff - Calamity Mod
+StaffofIchor.png - Ichor Spear - Calamity Mod
+ElementalAgony.png - Elemental Excalibur - Calamity Mod
+OrichalcumPetalStaff.png - Orichalcum - Terraria
+SoulflowBoulderStaff.png - Boulder Staff - Terraria
+SoulflowWand.png - Wand of Frosting - Terraria
+VortexShooter.png - Genisis - Calamity Mod
 Terrasama.png - First Fractal Projectile - Terraria
 DestructiveArray.png - Apoctosis Array - Calamity Mod
 AncientMurasama1.png - Old Murasama - Calamity Mod
@@ -12,25 +28,18 @@ AncientMurasamaBlade.png - Projectile 595 - Terraria
 AncientMurasamaBlade2.png - Projectile 595 - Terraria
 GalacticDeathRay.png - Projectile 872 - Terraria
 LightItemBlade.png - Projectile 595 - Terraria
-Content/Rarities
-ModRarity1.cs - ExampleModRarity - Example Mod
-ModRarity2.cs - ExampleHigherTierModRarity - Example Mod
-ModRarity3.cs - ExampleHigherTierModRarity - Example mod
 SakuyaKnives.cs (the recipe and damage part) - copied from The Stars Above mod code (thanks to PaperLuigi for letting me use it (discord.gg/starsabove))
 Content/Tiles
-StarhoodBarBlock.cs - ExampleBar - Example Mod
 StarhoodBarBlock.png - ExampleBar - Example Mod
-IcedBarBlock.cs - ExampleBar - ExampleMod
-IcedBarBlock.png - ExampleBar - ExampleMod
 Content/Items/Accessories
-LunarWings.cs - ExampleWings - Example Mod
+SoulflowRejuvenator.png - Nether Star - MineCraft
+SoulflowCapacitor.png - Soulflow Supercell - Furfsky Reborn Overlay
+SoulflowBattery.png - Soulflow Cell - Furfsky Reborn Overlay
+SoulflowSupercell.png - Soulflow Cell - Furfsky Reborn Overlay
 LunarWings.png - ExampleWings - Example Mod
 LunarWings_Wings.png - ExampleWings_Wings - Example Mod
 Content/Items/Consumables
 HealingCrystal.png - Blood Thorn - Terraria
 Content/Items/Placeable
-StarhoodBar.cs - ExampleBar - Example Mod
 StarhoodBar.png - ExampleBar - Example Mod
 CompressedIceBlock.png - ExampleBlock - Example Mod
-IcedBar.png - ExampleBar - ExampleMod
-IcedBar.cs - ExampleMod - ExampleMod
