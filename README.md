@@ -10,4 +10,4 @@ If any files are not there - it's either that I forgot to add them, or they were
 # 
 # Questions
 (The mod isn't really popular, but this is just in case anyone has questions about it)
-1. Q - Why are most sprites not drawn by me? A - I am bad and slow and drawing. If I did draw everything by myself the updates would take far longer to release.
+1. Q - Why are most sprites not drawn by me? A - I am bad and slow at drawing. If I did draw everything by myself the updates would take far longer to release.
