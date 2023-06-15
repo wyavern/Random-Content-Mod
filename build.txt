@@ -1,4 +1,4 @@
 displayName = Random Silly Content Mod
 author = wyavern
-version = 1.2.0.503
+version = 1.2.1.001
 homepage = https://discord.gg/SFRwZnevZH
