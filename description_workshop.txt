@@ -1,3 +1,20 @@
 A mod that adds some random content to the game.
-For source code go to https://github.com/wyavern/Random-Content-Mod
+For source code go to #github in https://discord.gg/SFRwZnevZH
 If you want to use any of that, please, message me on discord (wyavern#5387)!
+This mod adds quite a few things.
+Here they are (no spoilers though, play the mod in order to see the items :D):
+-93 items
+--13 of these being weapons
+--20 of these being armor pieces
+--8 QoL items
+--5 materials
+--1 mount
+--7 tile items
+--3 tools
+--25 weapons
+--7 accessories
+-3 buffs
+-4 tiles
+-11 projectiles
+-1 new mechanic
+-1 new damage class
